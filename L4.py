@@ -34,3 +34,5 @@
 #         print ("small odd")
 # else:
 #     print ("error:introduce a positiv number")
+
+#Ex 3
