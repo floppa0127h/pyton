@@ -36,3 +36,20 @@
 #     print ("error:introduce a positiv number")
 
 #Ex 3
+# in acest exercitiun folosim toate strunturi decisionale:if,elif.else
+# scrie un progam care primeste tempperatura de la tastatura
+# daca temperatura sub 0 grade dar temperatura minima admisa este -20 de grade afiseaza "inghet"
+# daca este intre 0 si 20 grade afiseasa "racoare"
+# daca este intre 20 si 30 de grade afiseaesaza "caldut"
+# daca este pestre 30 de grade si pana in 50 de grade afiseasa "foarte cald"
+temp=int(input ("introdu temperatura: "))
+if temp<0 and temp>-20:
+    print ("ingheata")
+elif temp>10 and temp<20:
+    print ("racoare")
+elif temp>20 and temp<30:
+    print("caldut")
+elif temp>30 and temp<50: 
+    print ("foarte cald")
+else:
+    print ("error")
